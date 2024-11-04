@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mia AI - AI-Powered Content Creation</title>
+  </head>
+  <body>
+    <!-- Netlify Form Hidden Container -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <input type="number" name="blogsPerMonth" />
+      <input type="text" name="oneTimeSetup" />
+      <input type="text" name="autonomousUpgrade" />
+      <input type="number" name="monthlyPrice" />
+      <input type="number" name="oneTimePrice" />
+    </form>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
